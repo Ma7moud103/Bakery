@@ -1,0 +1,32 @@
+/*media query*/
+
+@media all and (max-width: 574px) {
+    .ourBaking .container .items .item {
+        width: 100%
+    }
+}
+
+@media all and (min-width: 575px) and (max-width: 766px) {
+    .ourBaking .container .items .item {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 767px) and (max-width: 991px) {
+    .ourBaking .container .items .item {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .ourBaking .container .items .item {
+        width: 33.3333%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .ourBaking .container .items .item {
+        width: 25%;
+    }
+
+}
